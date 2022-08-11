@@ -1,0 +1,103 @@
+body{
+    height: 100%;
+    background-color:#9da3a8;
+}
+.flex_container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 5px;
+    height: 100%;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    
+    padding-bottom:20px;
+    padding-top:20px;
+    background-color: #444647;
+}
+.logo img {
+    border-radius: 50%;
+    border: 5px solid #2d2d2e;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+.data {
+    display:flex;
+    align-items: center;
+}
+.data div {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+.myInfo {
+    font-family: monospace;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.myImage img{
+    border-radius: 3%;
+    
+}
+.knowledge {
+    font-family: monospace;
+    font-size: 1.2rem;
+    justify-content: center;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-right:20px;
+}
+.footer {
+    flex: 0 0 auto;
+    background-color: #444647;
+}
+.footer h2{
+    color: #eb6e49;
+}
+.article {
+    margin-top: 2em;
+    font-family:monospace;
+    font-size:1.2rem;
+    font-weight:400;
+
+}
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-family: monospace;
+    font-weight:400;
+}
+h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size:2.5rem;
+    font-weight:600;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+li a {
+    text-decoration: none;
+    font-family:monospace;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #eb6e49;
+}

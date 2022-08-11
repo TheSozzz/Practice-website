@@ -1,0 +1,6 @@
+body {
+background-color: 
+
+.logo {
+border-radius: 50%;
+}
